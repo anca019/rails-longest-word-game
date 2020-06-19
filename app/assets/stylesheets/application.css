@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Indie+Flower&family=Piedra&family=Sriracha&display=swap');
+ .game {
+ 	display: flex;
+ 	flex-direction: column;
+
+ }
+ h1 {
+ 	font-family: 'Indie Flower', cursive;
+ 	font-weight: 500;
+ 	font-size: 60px;
+ 	margin-top: 20px;
+ 	margin-left: 20px;
+ 	margin-bottom: 20px;
+
+ }
+ h2 {
+ 	display: inline-block;
+ 	margin: 0 8px;
+ 	background-color: #F1AB86;
+ 	color: white;
+ 	padding: 10px;
+ 	box-shadow: 5px 5px 6px rgba(0,0,0,.1);
+ 	border: 1px solid rgba(0,0,0,.20);
+ }
+form {
+	margin-top: 20px;
+	margin-left: 20px;
+   flex-grow: 1;
+}
+p {
+	margin-top: 60px;
+   font-family: 'Indie Flower', cursive;
+   font-weight: bold;
+   margin-left: 20px;
+}
